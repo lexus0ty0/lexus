@@ -133,3 +133,11 @@ footer {
 .footer-list li {
     margin-bottom: 20px;
 }
+
+.menu-icon {
+    float: right;
+    font-size: 35px;
+    padding: 23px 25px;
+    cursor: pointer;
+    display: none;
+}
