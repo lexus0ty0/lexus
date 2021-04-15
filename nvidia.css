@@ -1,0 +1,54 @@
+@media screen and (min-width: 830px) and (max-width: 1200px) {
+
+    .copy-container h1 {
+        font-size: 110px;
+    }
+
+    .copy-container h2 {
+        font-size: 40px;
+    }
+
+    .lessons {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .lesson-item {
+        margin-right: 0px;
+        margin: 0 auto;
+        width: 40%;
+        flex: auto;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .header-list {
+        display: none;
+    }
+
+    .copy-container h1 {
+        font-size: 32px;
+    }
+
+    .copy-container h2 {
+        font-size: 20px;
+    }
+
+    .main {
+        padding: 0 15px;
+        text-align: center;
+    }
+    
+    .lessons {
+        flex-direction: column;
+    }
+
+    .copy-container {
+        margin: 200px 0 50px 0;
+    }
+
+    .lesson-item {
+        margin-right: 0;
+        flex: auto;
+    }
+}
