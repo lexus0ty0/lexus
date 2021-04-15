@@ -51,4 +51,9 @@
         margin-right: 0;
         flex: auto;
     }
+
+    .menu-icon {
+        display: block;
+    }
 }
+
