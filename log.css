@@ -1,0 +1,80 @@
+@media screen and (min-width: 830px) and (max-width: 1200px) {
+    .copy-container h1 {
+        font-size: 110px;
+    }
+
+    .copy-container h2 {
+        font-size: 45px;
+    }
+
+    .lesson-item {
+        width: 50%;
+        margin: 50px 0;
+    }
+
+    .lesson-item p {
+        margin-bottom: 50px;
+    }
+
+    .contact-wrapper {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .lessons {
+        text-align: center;
+    }
+
+    input, textarea {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    .header-list {
+        display: none;
+    }
+
+    .main {
+        text-align: center;
+        padding: 0 25px;
+    }
+
+    .copy-container {
+        padding: 200px 0 50px 0;
+    }
+
+    .copy-container h1 {
+        font-size: 42px;
+    }
+
+    .copy-container h2 {
+        font-size: 15px;
+    }
+
+    .lesson-item {
+        width: 100%;
+    }
+
+    .contents {
+        margin-top: 50px;
+    }
+
+    .lesson-item p {
+        margin-bottom: 50px;
+    }
+
+    input, textarea {
+        width: 250px;
+    }
+
+    .contact-wrapper {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
